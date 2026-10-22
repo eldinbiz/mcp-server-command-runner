@@ -1,12 +1,10 @@
 {
   "name": "@eldinbiz/mcp-server-command-runner",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Cross-platform MCP server for executing terminal commands under strict workstation execution policies",
   "type": "module",
   "main": "index.js",
-  "bin": {
-    "mcp-server-command-runner": "./index.js"
-  },
+  "bin": "./index.js",
   "publishConfig": {
     "access": "public"
   },
@@ -15,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eldinbiz/mcp-server-command-runner.git"
+    "url": "git+https://github.com/eldinbiz/mcp-server-command-runner.git"
   },
   "keywords": [
     "mcp",
