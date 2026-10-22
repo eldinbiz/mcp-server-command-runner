@@ -1,0 +1,27 @@
+# Dependencies (Crucial: never commit node_modules)
+node_modules/
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment & Secrets (Prevent accidental credential leaks)
+.env
+.env.local
+.env.*.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Scratch Files
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
