@@ -81,6 +81,16 @@ You can pass optional arguments to enforce process-level constraints:
 
 ---
 
+## Security & Responsibility Disclaimer
+
+> [!WARNING]
+> The security classifications, path whitelists, and tool toggles provided by this tool offer basic guardrails to protect against common accidental destructive actions to some extent. They do not constitute an impenetrable sandbox.
+> 
+> Developers and users must exercise caution and review agent actions. You remain solely responsible for any command executed on your workstation through this MCP server tool.
+
+---
+
 ## License
 
 MIT © [eldinbiz](https://github.com/eldinbiz)
+
