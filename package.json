@@ -1,6 +1,6 @@
 {
   "name": "@eldinbiz/mcp-server-command-runner",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Cross-platform MCP server for executing terminal commands under strict workstation execution policies",
   "type": "module",
   "main": "index.js",
